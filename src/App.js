@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div style={styles.container}>
         <div style={styles.comments}>
-          <CommentView />
+          <CommentView comments={['initial']} />
         </div>
         <div style={styles.newComment}>
           <CommentInput />
